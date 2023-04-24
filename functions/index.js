@@ -1,3 +1,5 @@
+// Wesbos Src: https://github.com/wesbos/beginner-javascript
+
 function calculateBill(billAmount, taxRate = 0, tipRate = 0.2) {
   const total = billAmount + billAmount * taxRate + billAmount * tipRate;
   return total;

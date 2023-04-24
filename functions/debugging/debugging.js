@@ -1,3 +1,5 @@
+/* eslint-disable no-undef */
+/* eslint-disable no-unused-vars */
 const people = [
   { name: "Wes", cool: true, country: "Canada" },
   { name: "Scott", cool: true, country: "Merica" },
