@@ -1,3 +1,8 @@
-const inchToCm = (inch) => inch * 2.54;
+const matt = {
+  name: "Matt Griffes",
+  sayHi: function () {
+    return `Hi, my name is ${this.name}`;
+  },
+};
 
-console.log(`10 inches is ${inchToCm(10)} centimeters`);
+console.log(matt.sayHi());
